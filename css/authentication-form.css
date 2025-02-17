@@ -31,6 +31,24 @@ form {
   padding: 20px;
 }
 
+.form-input-control {
+  margin-bottom: 20px;
+}
+
+.form-input-control label {
+  width: 330px;
+}
+
+.form-checkbox-control {
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.form-checkbox-control label {
+  font-weight: normal;
+}
+
 .subtext {
   color: #a9a9a9;
   font-weight: normal;
@@ -52,12 +70,23 @@ form {
 a {
   color: #335eea;
   text-decoration: none;
+  font-size: 14px;
+}
+
+p {
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 10px;
 }
 
 label {
   font-weight: bold;
   font-size: 14px;
   display: block;
+}
+
+.form-radio-control label {
+  font-weight: normal;
 }
 
 input,
@@ -70,24 +99,27 @@ select {
 
 input[type="checkbox"],
 input[type="radio"] {
-  width: max-content;
-  height: max-content;
+  width: auto;
+  height: auto;
   padding: 0;
+  margin-right: 5px;
 }
 
 input[type="submit"] {
-  width: unset;
-  height: unset;
+  width: auto;
+  height: auto;
   padding: 14px 20px;
   background: #335eea;
+  margin-top: 25px;
   color: white;
-  font-size: 18px;
+  font-size: 16px;
   border: 1px solid #335eea;
   border-radius: 8px;
   appearance: none;
   outline: none;
   clear: left;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 input[type="submit"]:hover {
@@ -96,4 +128,18 @@ input[type="submit"]:hover {
 
 .form select {
   height: 30px;
+}
+
+.form-group-horizontal-control {
+  display: flex;
+  gap: 20px;
+}
+
+.form-radio-control {
+  display: flex;
+  align-items: center;
+}
+
+.form-submit-control {
+  align-self: center;
 }
