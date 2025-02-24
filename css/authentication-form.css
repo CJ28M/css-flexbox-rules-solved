@@ -143,3 +143,13 @@ input[type="submit"]:hover {
 .form-submit-control {
   align-self: center;
 }
+
+#sign-in {
+  flex: 1;
+  max-width: 100%;
+}
+
+#sign-up {
+  flex: 1;
+  max-width: 100%;
+}
