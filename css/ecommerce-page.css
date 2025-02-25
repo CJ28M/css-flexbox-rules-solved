@@ -255,7 +255,7 @@ h2 {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 20px;
+  gap: 30px;
 }
 
 .grid .product {
@@ -274,7 +274,7 @@ h2 {
   height: 65%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .grid .product-info {
@@ -288,14 +288,19 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  gap: 30px;
   padding-top: 30px;
+  padding-bottom: 30px;
   border-top: 1px solid #8d8ba5;
 }
 
 /* LINE VIEW STYLES */
 
 .lines.products {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
 }
 
 .lines .product {
@@ -312,7 +317,8 @@ h2 {
 .lines .product-data {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
+  justify-content: space-around;
+  margin-left: 30px;
 }
 
 .lines .product-info {
@@ -328,15 +334,21 @@ h2 {
 .lines .product-action {
   display: flex;
   flex-direction: row;
-  gap: 40px;
+  gap: 30px;
 }
 
 /* LINES-ACTION VIEW */
 
 .lines-action.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
 }
 
 .lines-action .product {
+  display: flex;
+  flex-direction: row;
 }
 
 .lines-action .product-image-wrapper {
