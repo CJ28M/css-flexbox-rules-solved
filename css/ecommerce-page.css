@@ -101,9 +101,6 @@ section {
   color: #1f1f27;
 }
 
-.view-options {
-}
-
 i.fa-th-list {
   transform: rotate(180deg);
 }
@@ -357,12 +354,22 @@ h2 {
 }
 
 .lines-action .product-data {
+  display: flex;
+  flex-direction: row;
 }
 
 .lines-action .product-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-right: 30px;
+  padding-left: 30px;
 }
 
 .lines-action .product-action {
+  display: flex;
+  flex-direction: column;
   border-left: 1px solid #8d8ba5;
   padding-left: 30px;
   min-width: 200px;
