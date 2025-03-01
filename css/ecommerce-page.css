@@ -260,7 +260,6 @@ h2 {
   flex-direction: column;
   justify-content: space-evenly;
   width: 300px;
-  padding-bottom: 30px;
 }
 
 .grid .product-image-wrapper {
